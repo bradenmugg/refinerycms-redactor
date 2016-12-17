@@ -1,6 +1,8 @@
+if ( !RedactorPlugins ) var RedactorPlugins = {};
+
 (function($)
 {
-	$.Redactor.prototype.alignment = function()
+	RedactorPlugins.alignment = function()
 	{
 		return {
 			langs: {
