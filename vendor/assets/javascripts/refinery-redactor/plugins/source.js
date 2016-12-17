@@ -1,6 +1,8 @@
 (function($)
 {
-	$.Redactor.prototype.source = function()
+	if ( !RedactorPlugins ) { var RedactorPlugins = {}; }
+	
+	RedactorPlugins.myplugin = function() {
 	{
 		return {
 			init: function()
