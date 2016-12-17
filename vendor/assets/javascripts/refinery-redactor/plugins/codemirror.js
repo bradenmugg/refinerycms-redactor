@@ -1,6 +1,8 @@
+if ( !RedactorPlugins ) var RedactorPlugins = {};
+
 (function($)
 {
-	$.Redactor.prototype.codemirror = function()
+	RedactorPlugins.codemirror = function()
 	{
 		return {
 			init: function()
