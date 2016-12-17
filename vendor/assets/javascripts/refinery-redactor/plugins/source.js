@@ -1,8 +1,8 @@
+if ( !RedactorPlugins ) { var RedactorPlugins = {}; }
+
 (function($)
 {
-	if ( !RedactorPlugins ) { var RedactorPlugins = {}; }
-	
-	RedactorPlugins.myplugin = function() {
+	RedactorPlugins.myplugin = function()
 	{
 		return {
 			init: function()
