@@ -1,6 +1,8 @@
+if ( !RedactorPlugins ) var RedactorPlugins = {};
+
 (function($)
 {
-	$.Redactor.prototype.inlinestyle = function()
+	RedactorPlugins.inlinestyle = function()
 	{
 		return {
 			langs: {
