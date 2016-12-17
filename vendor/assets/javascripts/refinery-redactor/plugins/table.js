@@ -1,6 +1,8 @@
+if ( !RedactorPlugins ) var RedactorPlugins = {};
+
 (function($)
 {
-	$.Redactor.prototype.table = function()
+	RedactorPlugins.table = function()
 	{
 		return {
 			langs: {
